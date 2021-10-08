@@ -1,0 +1,51 @@
+<div class="card-container">
+  <h2 class="card-header">Editar Usuário: {{ usuario?.nome }} - {{ usuario?.usuarioId }}</h2>
+
+  <form [formGroup]="formulario" class="card-body">
+    <mat-form-field class="cadastro-item" appearance="standard">
+      <mat-label>Nome</mat-label>
+      <input formControlName="nome" matInput placeholder="Digite o nome do usuário" autocomplete="off">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field class="cadastro-item" appearance="standard">
+      <mat-label>E-mail</mat-label>
+      <input formControlName="email" type="email" matInput placeholder="Digite o nome do usuário" autocomplete="off">
+      <mat-icon matSuffix>email</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field class="cadastro-item" appearance="standard">
+      <mat-label>Senha</mat-label>
+      <input formControlName="senha" type="password" matInput placeholder="Digite o nome do usuário" autocomplete="off">
+      <mat-icon matSuffix>lock</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field class="cadastro-item" appearance="standard">
+      <mat-label>Data de Nascimento</mat-label>
+      <input onkeydown="return false;" autocomplete="off" formControlName="dataNascimento" matInput
+        [matDatepicker]="picker" (click)="picker.open()">
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+
+    <mat-form-field class="cadastro-item" appearance="standard">
+      <mat-label>Sexo</mat-label>
+      <mat-select formControlName="sexoId">
+        <mat-option value=1>Masculino</mat-option>
+        <mat-option value=2>Feminino</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field class="cadastro-item" appearance="standard">
+      <mat-label>Ativo</mat-label>
+      <mat-select formControlName="ativo">
+        <mat-option value=1>Sim</mat-option>
+        <mat-option value=0>Não</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <div class="d-flex-40 mt-2">
+      <button class="btn-search w-100" [disabled]="!formulario.valid" type="button" (click)="editar()">Editar</button>
+    </div>
+  </form>
+</div>

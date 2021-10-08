@@ -1,0 +1,16 @@
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Repository\bin\Debug\net5.0\WebAPI.Repository.deps.json
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Repository\bin\Debug\net5.0\WebAPI.Repository.dll
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Repository\bin\Debug\net5.0\ref\WebAPI.Repository.dll
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Repository\bin\Debug\net5.0\WebAPI.Repository.pdb
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Repository\bin\Debug\net5.0\WebAPI.Domain.dll
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Repository\bin\Debug\net5.0\WebAPI.Infrastructure.dll
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Repository\bin\Debug\net5.0\WebAPI.Domain.pdb
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Repository\bin\Debug\net5.0\WebAPI.Infrastructure.pdb
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Repository\obj\Debug\net5.0\WebAPI.Repository.csproj.AssemblyReference.cache
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Repository\obj\Debug\net5.0\WebAPI.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Repository\obj\Debug\net5.0\WebAPI.Repository.AssemblyInfoInputs.cache
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Repository\obj\Debug\net5.0\WebAPI.Repository.AssemblyInfo.cs
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Repository\obj\Debug\net5.0\WebAPI.Repository.csproj.CoreCompileInputs.cache
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Repository\obj\Debug\net5.0\WebAPI.Repository.dll
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Repository\obj\Debug\net5.0\ref\WebAPI.Repository.dll
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Repository\obj\Debug\net5.0\WebAPI.Repository.pdb

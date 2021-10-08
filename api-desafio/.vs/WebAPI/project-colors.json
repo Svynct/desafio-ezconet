@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "880bd95f-bb58-4f68-8647-250c8e364809": {
+      "ProjectGuid": "880bd95f-bb58-4f68-8647-250c8e364809",
+      "DisplayName": "WebAPI",
+      "ColorIndex": 0
+    },
+    "b29c7bff-8306-4e20-ae11-119b516c4ce2": {
+      "ProjectGuid": "b29c7bff-8306-4e20-ae11-119b516c4ce2",
+      "DisplayName": "WebAPI.Domain",
+      "ColorIndex": 1
+    },
+    "a4a9ac3d-6ac5-4a12-a4f7-533362364dcf": {
+      "ProjectGuid": "a4a9ac3d-6ac5-4a12-a4f7-533362364dcf",
+      "DisplayName": "WebAPI.Infrastructure",
+      "ColorIndex": 2
+    },
+    "2b0e9b4c-aac7-403f-a5de-58c47476a17f": {
+      "ProjectGuid": "2b0e9b4c-aac7-403f-a5de-58c47476a17f",
+      "DisplayName": "WebAPI.Repository",
+      "ColorIndex": 3
+    },
+    "1f0840ee-8e2b-42a7-9854-99b5324db4b7": {
+      "ProjectGuid": "1f0840ee-8e2b-42a7-9854-99b5324db4b7",
+      "DisplayName": "WebAPI.Services",
+      "ColorIndex": 4
+    },
+    "bffb1f42-4c89-4db6-8564-824e24b068cc": {
+      "ProjectGuid": "bffb1f42-4c89-4db6-8564-824e24b068cc",
+      "DisplayName": "WebAPI.Application",
+      "ColorIndex": 5
+    },
+    "3ce6a12f-f185-466b-a7de-51cc4d89a673": {
+      "ProjectGuid": "3ce6a12f-f185-466b-a7de-51cc4d89a673",
+      "DisplayName": "WebAPI.Testes",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}

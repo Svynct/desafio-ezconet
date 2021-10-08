@@ -1,0 +1,12 @@
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Domain\bin\Debug\net5.0\WebAPI.Domain.deps.json
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Domain\bin\Debug\net5.0\WebAPI.Domain.dll
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Domain\bin\Debug\net5.0\ref\WebAPI.Domain.dll
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Domain\bin\Debug\net5.0\WebAPI.Domain.pdb
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Domain\obj\Debug\net5.0\WebAPI.Domain.csproj.AssemblyReference.cache
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Domain\obj\Debug\net5.0\WebAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Domain\obj\Debug\net5.0\WebAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Domain\obj\Debug\net5.0\WebAPI.Domain.AssemblyInfo.cs
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Domain\obj\Debug\net5.0\WebAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Domain\obj\Debug\net5.0\WebAPI.Domain.dll
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Domain\obj\Debug\net5.0\ref\WebAPI.Domain.dll
+C:\Users\ricka\Desktop\ProjetoAPI\WebAPI\WebAPI.Domain\obj\Debug\net5.0\WebAPI.Domain.pdb

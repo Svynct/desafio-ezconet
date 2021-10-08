@@ -1,0 +1,30 @@
+<nav class="navbar">
+  <div class="nav-content">
+    <div class="nav-item" (click)="navigate(1)">
+      <mat-icon class="icon">menu</mat-icon>
+      <span>Home</span>
+    </div>
+    <div class="nav-item" (click)="navigate(2)">
+      <mat-icon class="icon">people</mat-icon>
+      <span>Usuários</span>
+    </div>
+    <div class="nav-item" (click)="navigate(3)">
+      <mat-icon class="icon">person_add</mat-icon>
+      <span>Cadastrar</span>
+    </div>
+
+    <form class="search-bar">
+      <div>
+        <!-- <mat-icon class="icon">search</mat-icon> -->
+        <mat-form-field appearance="standard">
+          <mat-label>Busque um usuário</mat-label>
+          <input matInput placeholder="Digite o nome do usuário" autocomplete="off"
+            (keyup.enter)="buscarUsuario($event)">
+          <mat-icon matPrefix>manage_search</mat-icon>
+        </mat-form-field>
+      </div>
+    </form>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,333 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI\\WebAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Application\\WebAPI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Application\\WebAPI.Application.csproj",
+        "projectName": "WebAPI.Application",
+        "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Application\\WebAPI.Application.csproj",
+        "packagesPath": "C:\\Users\\ricka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ricka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Repository\\WebAPI.Repository.csproj": {
+                "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Repository\\WebAPI.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj",
+        "projectName": "WebAPI.Domain",
+        "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj",
+        "packagesPath": "C:\\Users\\ricka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ricka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj",
+        "projectName": "WebAPI.Infrastructure",
+        "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ricka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ricka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Repository\\WebAPI.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Repository\\WebAPI.Repository.csproj",
+        "projectName": "WebAPI.Repository",
+        "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Repository\\WebAPI.Repository.csproj",
+        "packagesPath": "C:\\Users\\ricka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ricka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj"
+              },
+              "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI\\WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "projectName": "WebAPI",
+        "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\ricka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ricka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Application\\WebAPI.Application.csproj": {
+                "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Application\\WebAPI.Application.csproj"
+              },
+              "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj"
+              },
+              "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj"
+              },
+              "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Repository\\WebAPI.Repository.csproj": {
+                "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Repository\\WebAPI.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.9, 5.0.9]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,66 @@
+<div class="card-container">
+
+  <form [formGroup]="formulario" class="search-container">
+    <mat-form-field class="search-item" appearance="standard">
+      <mat-label>Nome</mat-label>
+      <input formControlName="nome" matInput placeholder="Digite o nome do usuário" autocomplete="off">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field class="search-item" appearance="standard">
+      <mat-label>Ativo</mat-label>
+      <mat-select formControlName="ativo">
+        <mat-option value=true>Sim</mat-option>
+        <mat-option value=false>Não</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <div class="btn-search-wrapper">
+      <button class="btn-search" type="button" (click)="buscarPorFiltro()">Buscar</button>
+      <button class="btn-search-secondary ml-2" type="button" (click)="limparFiltro()">Limpar filtro</button>
+    </div>
+  </form>
+
+  <ng-container *ngIf="usuarios?.length > 0 else listaVazia">
+    <table class="table">
+      <thead class="table-header">
+        <th class="table-header-item">Nome</th>
+        <th class="table-header-item">Data de Nascimento</th>
+        <th class="table-header-item">E-mail</th>
+        <th class="table-header-item">Sexo</th>
+        <th class="table-header-item">Ativo</th>
+        <th class="table-header-item">Editar</th>
+        <th class="table-header-item">Excluir</th>
+      </thead>
+      <tbody class="table-body">
+        <tr *ngFor="let usuario of usuarios" [class.border-light]="usuarios.indexOf(usuario) % 2 === 0">
+          <th class="table-body-item">{{ usuario.nome }}</th>
+          <th class="table-body-item">{{ usuario.dtNascimentoFormatada }}</th>
+          <th class="table-body-item">{{ usuario.email }}</th>
+          <th class="table-body-item">{{ usuario.sexo }}</th>
+          <th class="table-body-item">{{ usuario.ativo }}</th>
+          <th class="table-body-item">
+            <mat-icon class="icon-edit pointer" (click)="editarUsuario(usuario)">manage_accounts</mat-icon>
+          </th>
+          <th class="table-body-item">
+            <mat-icon class="icon-remove pointer" (click)="removerUsuario(usuario)">person_remove</mat-icon>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+  </ng-container>
+</div>
+
+<ng-template #listaVazia>
+  <div class="card-header-img">
+    <mat-icon class="icon-big">person_search</mat-icon>
+  </div>
+
+  <div class="card-body">
+    <h4>Não há usuários a serem exibidos. Cadastrar um novo usuário?</h4>
+
+    <div class="button-group">
+      <button type="button" mat-raised-button color="primary" [routerLink]="['/cadastrar']">Cadastrar</button>
+    </div>
+  </div>
+</ng-template>
