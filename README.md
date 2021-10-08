@@ -5,6 +5,10 @@ Instalando dependências:
 2. Abra um teminal na pasta web-desafio
 3. Execute o comando: npm install
 
+Migration:
+1. Abra a solução WebAPI.sln
+2. Execute a migration presente
+
 Executando o projeto:
 1. Abra um teminal na pasta web-desafio
 2. Execute o comando: ng serve --open
