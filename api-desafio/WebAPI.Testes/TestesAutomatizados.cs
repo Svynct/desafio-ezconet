@@ -1,12 +1,16 @@
 using Microsoft.AspNetCore.Mvc.Testing;
+using Newtonsoft.Json;
 using System.Collections.Generic;
+using System.Net;
 using System.Net.Http;
+using WebAPI.Application.Services.Interfaces;
+using WebAPI.Controllers;
 using WebAPI.Domain.Models;
 using Xunit;
 
 namespace WebAPI.Testes
 {
-    public class TestesAutomatizados
+    public class TestesAutomatizados : IClassFixture<WebApplicationFactory<Startup>>
     {
         private readonly WebApplicationFactory<Startup> _factory;
         private readonly HttpClient _httpClient;
@@ -18,11 +22,13 @@ namespace WebAPI.Testes
         }
 
         [Fact]
-        public async void RecuperarTodosUsuarios()
+        public  void RecuperarTodosUsuarios()
         {
-            var result = await _httpClient.GetAsync("api/usuario");
-            Assert.NotNull(result.Content);
-            Assert.IsType<List<Usuario>>(result.Content);
+            var httpClientRequest = _httpClient.GetAsync("api/usuario").GetAwaiter().GetResult();
+            var content = JsonConvert.DeserializeObject<List<Usuario>>(httpClientRequest.Content.ReadAsStringAsync().GetAwaiter().GetResult());
+
+            Assert.Equal(HttpStatusCode.OK, httpClientRequest.StatusCode);
+            Assert.NotNull(content);
         }
     }
 }
