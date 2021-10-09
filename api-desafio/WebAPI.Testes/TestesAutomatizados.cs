@@ -22,7 +22,7 @@ namespace WebAPI.Testes
         }
 
         [Fact]
-        public  void RecuperarTodosUsuarios()
+        public void RecuperarTodosUsuariosDeveRetornarStatusCode200ENotNull()
         {
             var httpClientRequest = _httpClient.GetAsync("api/usuario").GetAwaiter().GetResult();
             var content = JsonConvert.DeserializeObject<List<Usuario>>(httpClientRequest.Content.ReadAsStringAsync().GetAwaiter().GetResult());
