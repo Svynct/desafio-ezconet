@@ -5952,11 +5952,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Repository\\WebAPI.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Repository\\WebAPI.Repository.csproj",
       "projectName": "WebAPI.Repository",
-      "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Repository\\WebAPI.Repository.csproj",
+      "projectPath": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Repository\\WebAPI.Repository.csproj",
       "packagesPath": "C:\\Users\\ricka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Repository\\obj\\",
+      "outputPath": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ricka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5973,11 +5973,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj": {
-              "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj"
+            "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Domain\\WebAPI.Domain.csproj": {
+              "projectPath": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Domain\\WebAPI.Domain.csproj"
             },
-            "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj"
+            "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Application\\WebAPI.Application.csproj": {}
+    "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Application\\WebAPI.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Application\\WebAPI.Application.csproj": {
+    "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Application\\WebAPI.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Application\\WebAPI.Application.csproj",
+        "projectUniqueName": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Application\\WebAPI.Application.csproj",
         "projectName": "WebAPI.Application",
-        "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Application\\WebAPI.Application.csproj",
+        "projectPath": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Application\\WebAPI.Application.csproj",
         "packagesPath": "C:\\Users\\ricka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Application\\obj\\",
+        "outputPath": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ricka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Repository\\WebAPI.Repository.csproj": {
-                "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Repository\\WebAPI.Repository.csproj"
+              "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Repository\\WebAPI.Repository.csproj": {
+                "projectPath": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Repository\\WebAPI.Repository.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj": {
+    "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Domain\\WebAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Domain\\WebAPI.Domain.csproj",
         "projectName": "WebAPI.Domain",
-        "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj",
+        "projectPath": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Domain\\WebAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\ricka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\obj\\",
+        "outputPath": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ricka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -116,14 +116,14 @@
         }
       }
     },
-    "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj": {
+    "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj",
         "projectName": "WebAPI.Infrastructure",
-        "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ricka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ricka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -140,8 +140,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj"
+              "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Domain\\WebAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Domain\\WebAPI.Domain.csproj"
               }
             }
           }
@@ -192,14 +192,14 @@
         }
       }
     },
-    "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Repository\\WebAPI.Repository.csproj": {
+    "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Repository\\WebAPI.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Repository\\WebAPI.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Repository\\WebAPI.Repository.csproj",
         "projectName": "WebAPI.Repository",
-        "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Repository\\WebAPI.Repository.csproj",
+        "projectPath": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Repository\\WebAPI.Repository.csproj",
         "packagesPath": "C:\\Users\\ricka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Repository\\obj\\",
+        "outputPath": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ricka\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -216,11 +216,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Domain\\WebAPI.Domain.csproj"
+              "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Domain\\WebAPI.Domain.csproj": {
+                "projectPath": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Domain\\WebAPI.Domain.csproj"
               },
-              "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\ricka\\Desktop\\ProjetoAPI\\WebAPI\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj"
+              "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ricka\\Desktop\\ws-prova\\api-desafio\\WebAPI.Infrastructure\\WebAPI.Infrastructure.csproj"
               }
             }
           }
